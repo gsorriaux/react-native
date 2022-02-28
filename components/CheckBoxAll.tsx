@@ -8,6 +8,10 @@ class CheckBoxAll extends React.Component {
         super(props)
     }
 
+    renderCheckBox(i){
+        return <CheckBox key={i} label={`Checkbox ${i}`} ></CheckBox> 
+    }
+
     render(){
         return(
             <View>
